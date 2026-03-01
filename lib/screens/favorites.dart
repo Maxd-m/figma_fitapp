@@ -107,14 +107,14 @@ class Favorites extends StatelessWidget {
         'time': '60 Minutes',
         'kcal': '1320 Kcal',
         'exercises': '5 Exercises',
-        'image': 'assets/strech.jpg',
+        'image': 'assets/upper.jpg',
         'isVideo': true,
       },
       {
         'title': 'Boost Energy And Vitality',
         'description':
             'Incorporating physical exercise into your daily routine can boost...',
-        'image': 'assets/strech.jpg',
+        'image': 'assets/vital.jpg',
         'isVideo': false,
       },
       {
@@ -122,21 +122,21 @@ class Favorites extends StatelessWidget {
         'time': '30 Minutes',
         'kcal': '1210 Kcal',
         'exercises': '10 Exercises',
-        'image': 'assets/strech.jpg',
+        'image': 'assets/pull.png',
         'isVideo': true,
       },
       {
         'title': 'Lower Body Blast',
         'description':
             'A lower body blast is a high-intensity workout focused on targeting...',
-        'image': 'assets/strech.jpg',
+        'image': 'assets/lower.png',
         'isVideo': false,
       },
       {
         'title': 'Avocado And Egg Toast',
         'time': '15 Minutes',
         'kcal': '150 Cal',
-        'image': 'assets/strech.jpg',
+        'image': 'assets/avoc.jpg',
         'isVideo': false,
       },
     ];
