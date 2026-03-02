@@ -9,6 +9,7 @@ class Favorites extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFF1C1C1E),
+      bottomNavigationBar: AppBottomBar(activeTab: BottomTab.favorites),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -21,9 +22,6 @@ class Favorites extends StatelessWidget {
               _buildFilters(),
               const SizedBox(height: 20),
               Expanded(child: _buildFavoritesList()),
-              // El BottomBar lo dejamos fuera del padding si prefieres que ocupe todo el ancho
-              AppBottomBar(activeTab: BottomTab.favorites),
-              const SizedBox(height: 8),
             ],
           ),
         ),

@@ -11,7 +11,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xFF1C1C1E),
       bottomNavigationBar: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        // padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         color: const Color(0xFF1C1C1E), // Mismo color de fondo
         child: AppBottomBar(activeTab: BottomTab.home),
       ),
